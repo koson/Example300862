@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -41,13 +40,6 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // hScrollBar1
-            // 
-            this.hScrollBar1.Location = new System.Drawing.Point(51, 129);
-            this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(272, 24);
-            this.hScrollBar1.TabIndex = 1;
             // 
             // textBox1
             // 
@@ -62,7 +54,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 308);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -74,7 +65,6 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.HScrollBar hScrollBar1;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
